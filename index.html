@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>T-Shirt Store</title>
+  
+  <!-- CSS styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/76ad7165c3.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap cdn -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="header-bar">
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">  
+            <a class="navbar-brand" href="#"><img src="images-tshirt/logo-e.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">    
+                  <a class="nav-link home-text" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">CONTACT US</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                  </a>
+              
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">ENGLISH</a>
+                    <a class="dropdown-item" href="#">FRANCAIS</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+
+        <section id="title">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div>
+                        <h1>T-Shirt Store</h1>
+                        <p class="title-text">T-shirts with a unique design. Collection and style <em>for everyone</em>.</p>
+                        <button type="button" class="btn btn-lg btn-danger buy-button"> BUY NOW  <i class="fa-solid fa-bag-shopping"></i> </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-title" src="images-tshirt/hero-shirt.jpg" alt="a shirt">
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Features -->
+        <section id="features">
+          <div class="features-text">
+            <h2>Welcome to the T-Shirt Online Store</h2>
+            <hr>
+            <p class="t-shirt">The Unisex heavy cotton tee is the basic staple of any wardrobe. It feels soft and light with just the right amount of 
+              strech. It's comfortable and flattering for all. It's the foundation upon which casual grows.
+              All it needs is a personalized designs to elevate things to profitability. The special spun fibre provide a smooth surface
+              for premium printing vidity and sharpness. No side seams mean there are no itchy interuptions under the arms.
+              We can't compliment this t-shirt enough-it's one of our crowd favourites, and it's sure to be your next favourite too.
+            </p>
+          </div>
+        </section>
+
+        <!-- Quality -->
+        <section id="quality">
+          <div class="quality-text">
+                <h2 class="quality-product">Our Products' Specialities</h2>
+                <hr class="hr-break">
+             
+                <h4 class="quality-more">More than just a look</h4>
+                <p class="paraph">Aren't some of the best memories the ones made out of impulsivity? Not only will you get this simple, comfortable, and a low 
+                  profile short sleeve and long sleeve t-shirt but you'll have a physical reminder to look back on. Just your everyday 
+                  smooth, comfy tee, a wardrobe stable. If you know, you know.
+                </p>
+                
+                <div class ="row">
+                  <div class="col-lg-3">
+                <i class="icon fa-solid fa-user-tie fa-4x"></i>
+                <h6 class="unique">Unique Design</h6>
+                <p>Affordable, Simple, Stress-free</p>
+                </div>
+              
+                <div class="col-lg-3">
+               <i class="icon fa-solid fa-shirt fa-3x"></i>
+               <h6 class="unique">Perfect fit clothes</h6>
+               <p>Knitted in one place using tabular knit.</p>
+                </div>
+
+                <div class="col-lg-3">
+                <i class="icon fa-solid fa-medal fa-3x"></i>
+                <h6 class="unique">Original Quality</h6>
+                <p>Materials gotten from a very brilliant vendor</p>
+              </div>
+              <div class="col-lg-3">
+                <i class="icon fa-solid fa-tags fa-3x"></i>
+                <h6 class="unique">Competitive Prices</h6>
+                <p>Available at affordable prices.</p>
+              </div>
+              </div>
+              <button type="button" class="btn btn-lg btn-danger read-button"> READ MORE </button>
+        </section>
+
+        <section id="cart">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class ="cart-picture" src="images-tshirt/big-product.jpg" alt="pink shirt">
+            </div>
+            <div class="col-lg-8">
+              <h3>Beautiful Pink T-shirt</h3>
+              <p>A long or short sleeve sweatshirt for the upperbody, usually lightweight and having a smooth texture.</p>
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-auto">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"></label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                      <option selected>Choose your size</option>
+                      <option value="1">Small</option>
+                      <option value="2">Medium</option>
+                      <option value="3">Large</option>
+                      <option value="3">X-Large</option>
+                    </select>
+                  </div>
+                  
+                  <div class="col-auto my-1">
+                    <div class="custom-control custom-checkbox mr-sm-2">
+                     
+                  <div class="col-auto my-1">
+                    <h6 class="my-price">70.00$</h6>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+            
+          </div>
+          <button type="button" class="btn btn-lg btn-danger cart-button">ADD TO CART <i class="fa-solid fa-cart-plus"></i></button>
+        </section>
+
+        <section id="products">
+          <div class="new-products">
+            <h2 class="product-text">Our Products</h3>
+            <hr>
+            <div class="row">
+              <div class="col-lg-3">
+                <img class="product-img" src="images-tshirt/shirt-orange.jpg" alt="">
+                <p class="pull-left">Elegant Orange</p>
+                <span class="price pull-right">70.00$</span>
+                <p class="pull-right">✰✰✰✰✰</p>
+              </div>
+              <div class="col-lg-3">
+                <img class="product-img" src="images-tshirt/shirt-blue (1).jpg" alt="">
+                <p class="pull-left">Elegant Orange</p>
+                <span class="price pull-right">70.00$</span>
+                <p class="pull-right">✰✰✰✰✰</p>
+              </div>
+              <div class="col-lg-3">
+                <img class="product-img" src="images-tshirt/shirt-gray.jpg" alt="">
+                <p class="pull-left">Elegant Orange</p>
+                <span class="price pull-right">70.00$</span>
+                <p class="pull-right">✰✰✰✰✰</p>
+              </div>
+              <div class="col-lg-3">
+                <img class="product-img" src="images-tshirt/shirt-black.jpg" alt="">
+                <p class="pull-left">Elegant Orange</p>
+                <span class="price pull-right">70.00$</span>
+                <p class="pull-right">✰✰✰✰✰</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="collection">
+          <div class="collect">
+            <h2 class="collect-text">Limited Time Online</h2>
+            <p class="collect-day">Click & Collect Next Day Delivery <a class="collect-over" href="#">Free Over 20$</a></p>
+          </div>
+        </section>
+
+        <section id="new-arrivals">
+          <div class="arrivals">
+            <h2 class="arrival-text">New Arrivals</h2>
+            <hr>
+            <div class="row">
+              <div class="col-lg-4">
+                <img class="arrival-img" src="images-tshirt/f-shirt-blue.jpg" alt="">
+                <h5>Elegant Blue</h5>
+                <h5 class="price">70.00$</h5>
+              </div>
+              <div class="col-lg-4">
+                <img class="arrival-img" src="images-tshirt/f-shirt-cyan.jpg" alt="">
+                <h5>Elegant Cyan</h5>
+                <ul class="list-inline">
+                  <li class="old list-inline-item">70.00$</li>
+                  <li class="price list-inline-item">40.00$</li>
+                </ul>
+              </div>
+              <div class="col-lg-4">
+                <img class="arrival-img" src="images-tshirt/f-shirt-green.jpg" alt="">
+                <h5>Awesome Green</h5>
+                <h5 class="price">70.00$</h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimonials">
+          <div class="testimonial-text">
+            <h2>How our Clients Appreciate Our Service</h2>
+            <hr>
+            <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h3>T-shirt is mind blowing. Seamless shirt, easy to wash. I Love it. it's giving boy vibes.</h3>
+                  <img class="testimonial-image" src="images-tshirt/user-1.jpg" alt="dog-profile">
+                  <em>Rome, Italy</em>
+                </div>
+                <div class="carousel-item">
+                  <h3 class="testimonial-text">This is more than just a T-shirt. It feels so right and fit perfectly. Thank you so much for this wonderful piece.</h3>
+                  <img class="testimonial-image" src="images-tshirt/user-2.jpg" alt="lady-profile">
+                  <em>Berlin, Germany</em>
+                </div>
+                <div class="carousel-item">
+                  <h3 class="testimonial-text">All i can say is, if you are looking for the best place to get your shirts, this is the perfect place. </h3>
+                  <img class="testimonial-image" src="images-tshirt/user-3.jpg" alt="lady-profile">
+                  <em>San Francisco, USA</em>
+                </div>
+              </div>
+              
+              <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                
+               </a>
+               
+              <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                
+              </a>
+            </div>
+          </div>
+          
+        </section>
+
+          <section id="brands">
+            <h2 class="brand-text">Our Brands</h2>
+            <hr>
+            <img class="brand-logo" src="images-tshirt/logo-1.png" alt="tc-logo">
+            <img class="brand-logo" src="images-tshirt/logo-2.png" alt="tnw-logo">
+            <img class="brand-logo" src="images-tshirt/logo-1.png" alt="biz-insider-logo">
+            <img class="brand-logo" src="images-tshirt/logo-2.png" alt="mashable-logo">
+        
+          </section>
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <hr>
+          <h5 class="contact-text">Interested in getting any of our designed shirts? Contact us today!</h5>
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4"></label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Your Name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4"></label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Your Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control text-area" id="exampleFormControlTextarea1"  placeholder="How can we help you?"></textarea>
+            </div>
+
+
+           <a href="#" class="send">Send</a>
+           
+        </section>
+        <footer id="footer">
+          <a class="footer-link" href="https://twitter.com/i_Agbato"><i class="fa-brands fa-twitter"></i></a>
+          <a class="footer-link" href="https://www.facebook.com/iretomiwa.agbato"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="footer-link" href="https://www.instagram.com/dimpl_dee/"><i class="fa-brands fa-instagram"></i></a>
+          <a class="footer-link" href="mailto:dayoaagbato@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      
+          <p class="footer-copy">© Copyright T-Shirt Store</p>
+      
+        </footer>
+   
+</body>
+</html>
